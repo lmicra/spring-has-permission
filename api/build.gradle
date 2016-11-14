@@ -1,0 +1,8 @@
+apply plugin: 'application'
+mainClassName = 'net.individual.apt.Main'
+
+dependencies {
+	compile 'org.springframework:spring-core:4.3.3.RELEASE'
+
+	compile project(':springHasPermission')
+}

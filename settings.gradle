@@ -1,0 +1,3 @@
+rootProject.name = 'spring-has-permission'
+
+include 'api', 'springHasPermission'
