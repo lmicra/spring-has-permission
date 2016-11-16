@@ -1,10 +1,9 @@
 # spring-has-permission
-HasPermission annotation to convert to PreAuthorize
 
-This is a non-working example, any help is appreciated.
+HasPermission annotation to convert to PreAuthorize('hasAuthority') or PreAuthorize('hasAnyAuthority')
 
 ## usage
 
 Run with:
 
-./gradlew clean :api:run
+./gradlew :api:run
