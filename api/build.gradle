@@ -2,7 +2,10 @@ apply plugin: 'application'
 mainClassName = 'net.individual.apt.Main'
 
 dependencies {
+	compile 'org.springframework.security:spring-security-core:4.1.3.RELEASE'
 	compile 'org.springframework:spring-core:4.3.3.RELEASE'
 
-	compile project(':springHasPermission')
+	compile project(':annotation')
+
+	compileOnly project(':processor')
 }
